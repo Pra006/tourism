@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = ({ imageUrl, title, snippet, price, onViewDetails }) => {
   const currencySymbol = "रु.";
   return (
-    <div className="tour-card">
+    <div className="tour-card" onClick={onViewDetails}>
       <div className="card-image-container">
         <img src={imageUrl} alt={title} className="card-image" />
         <div className="card-badge">Popular</div>

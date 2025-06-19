@@ -1,0 +1,60 @@
+.package-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.package-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.package-header h1 {
+  font-size: 2.5rem;
+  color: #2d3748;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #4299e1;
+  font-weight: bold;
+}
+
+.package-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.package-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.package-info h2 {
+  margin-top: 1.5rem;
+  color: #2d3748;
+}
+
+.book-now {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background: #3182ce;
+}
+
+@media (max-width: 768px) {
+  .package-content {
+    grid-template-columns: 1fr;
+  }
+}

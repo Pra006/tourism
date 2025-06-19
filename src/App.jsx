@@ -16,6 +16,7 @@ import Login from "./pages/login/login";
 import Signup from "./pages/signup/signup";
 import PrivateRoute from "./helper/privateRoute";
 import "./App.css";
+import PackageDetail from "./pages/PackagePage/PackageDetail";
 
 const App = () => {
   const navigate = useNavigate();
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/tour-packages" element={<TourPackages />} />
+          <Route path="/package/:id" element={<PackageDetail />} />
           <Route
             path="/login"
             element={<Login setIsAuthenticated={setIsAuthenticated} />}

@@ -1,25 +1,47 @@
+import { useNavigate } from "react-router-dom";
 import "./TourPackages.css";
-import phewaImage from "../../assets/Phewa.jpg";
+import Card from "../../components/Card/Card";
 
 const TourPackages = () => {
-  const packageData = {
-    title: "Kathmandu-Pokhara 5 Days Trip",
-    description:
-      "Experience the best of Kathmandu and Pokhara with our carefully curated tour package that combines cultural heritage with natural beauty.",
-    highlights: [
-      "Visit UNESCO World Heritage Sites in Kathmandu",
-      "Boat ride on Phewa Lake with mountain views",
-      "Sunrise view from Sarangkot",
-      "Explore local markets and cuisine",
-    ],
-    packageDetails: {
-      duration: "5 Days / 4 Nights",
-      locations: "Kathmandu, Pokhara",
-      rating: "4.8 (150 reviews)",
-      accommodation: "4-Star Hotels",
-      transportation: "Private AC Vehicle",
+  const navigate = useNavigate();
+
+  const packages = [
+    {
+      id: 1,
+      imageUrl: "https://images.unsplash.com/photo-1580327344181-c1163234e5a0",
+      title: "Kathmandu–Pokhara Adventure",
+      snippet: "Himalayan trekking experience with luxury stays",
+      price: 599,
+      duration: "5 Days",
     },
-    price: 13000,
+    {
+      id: 2,
+      imageUrl: "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+      title: "Everest Base Camp Trek",
+      snippet: "Ultimate mountain journey to the roof of the world",
+      price: 1299,
+      duration: "14 Days",
+    },
+    {
+      id: 3,
+      imageUrl: "https://images.unsplash.com/photo-1526397751294-331021109fbd",
+      title: "Chitwan Jungle Safari",
+      snippet: "Wildlife adventure with rhino spotting",
+      price: 399,
+      duration: "3 Days",
+    },
+    {
+      id: 4,
+      imageUrl: "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+      title: "Lumbini Spiritual Tour",
+      snippet: "Peaceful Buddhist pilgrimage experience",
+      price: 349,
+      duration: "2 Days",
+    },
+  ];
+
+  const handleCardClick = (id) => {
+    navigate(`/package/${id}`);
   };
 
   return (
@@ -29,86 +51,17 @@ const TourPackages = () => {
         <p>Carefully crafted experiences for every traveler</p>
       </div>
 
-      <div className="package-container">
-        <div className="package-gallery">
-          <div
-            className="main-image"
-            style={{ backgroundImage: `url(${phewaImage})` }}
-          ></div>
-          <div className="thumbnail-grid">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="thumbnail"
-                style={{ backgroundImage: `url(${phewaImage})` }}
-              ></div>
-            ))}
-          </div>
-        </div>
-
-        <div className="package-details">
-          <div className="package-header">
-            <h2>{packageData.title}</h2>
-            <div className="package-meta">
-              <span className="rating">
-                ⭐ {packageData.packageDetails.rating}
-              </span>
-              <span className="duration">
-                🕒 {packageData.packageDetails.duration}
-              </span>
-            </div>
-          </div>
-
-          <div className="package-highlights">
-            <h3>Experience Highlights</h3>
-            <ul>
-              {packageData.highlights.map((highlight, index) => (
-                <li key={index}>{highlight}</li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="package-info-grid">
-            <div className="info-item">
-              <span className="info-icon">🏨</span>
-              <div>
-                <h4>Accommodation</h4>
-                <p>{packageData.packageDetails.accommodation}</p>
-              </div>
-            </div>
-            <div className="info-item">
-              <span className="info-icon">🚌</span>
-              <div>
-                <h4>Transportation</h4>
-                <p>{packageData.packageDetails.transportation}</p>
-              </div>
-            </div>
-            <div className="info-item">
-              <span className="info-icon">🍽️</span>
-              <div>
-                <h4>Meals</h4>
-                <p>Breakfast included</p>
-              </div>
-            </div>
-            <div className="info-item">
-              <span className="info-icon">👨‍👩‍👧‍👦</span>
-              <div>
-                <h4>Group Size</h4>
-                <p>Max 12 people</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="package-price-section">
-            <div className="price-box">
-              <span className="from">From</span>
-              <span className="price">रु. {packageData.price}</span>
-              <span className="per-person">per person</span>
-            </div>
-            <button className="book-now-button">Book Now</button>
-            <button className="inquiry-button">Make an Inquiry</button>
-          </div>
-        </div>
+      <div className="card-grid">
+        {packages.map((pkg) => (
+          <Card
+            key={pkg.id}
+            imageUrl={pkg.imageUrl}
+            title={pkg.title}
+            snippet={pkg.snippet}
+            price={pkg.price}
+            onViewDetails={() => handleCardClick(pkg.id)}
+          />
+        ))}
       </div>
     </section>
   );
