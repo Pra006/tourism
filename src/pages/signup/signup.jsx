@@ -1,13 +1,21 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import axios from  'axios';
 import './Signup.css';
+import {baseUrl} from '../../helper/common';
+import {v4 as uuidv4 } from 'uuid';
 
-const Signup = ({ setIsAuthenticated }) => {
+const Signup = ({ setIsAuthenticated }) => 
+    {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         password: '',
-        confirmPassword: ''
+        confirmPassword: '',
+        Phone: '',
+        Role: 'user',
+        address: '',
+        unique_ID: uuidv4()
     });
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -50,9 +58,24 @@ const Signup = ({ setIsAuthenticated }) => {
         if (formData.password !== formData.confirmPassword) {
             newErrors.confirmPassword = 'Passwords do not match';
         }
+         if(!formData.Phone.trim()) newErrors.Phone = 'Phone number is required';
+         if(!formData.address.trim()) newErrors.address = 'Address is required';
 
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
+    };
+    const signupAPI = async (data) => {
+         const response = await axios.post(`${baseUrl}/signup`, {
+    
+            Name: data.name,
+            Email: data.email,  
+            Password: data.password,
+            Phone: data.Phone,
+            Role: data.Role,
+            Address: data.address,
+            Unique_ID: data.unique_ID
+        });
+        return response.data;
     };
 
     const handleSubmit = async (e) => {
@@ -63,7 +86,7 @@ const Signup = ({ setIsAuthenticated }) => {
 
             try {
                 // Simulate API call to your backend
-                const response = await mockSignupAPI(formData);
+                 const response = await axios.post(`${baseUrl}/signup`, formData);
 
                 // On successful signup
                 localStorage.setItem('isAuthenticated', 'true');
@@ -81,27 +104,7 @@ const Signup = ({ setIsAuthenticated }) => {
         }
     };
 
-    // Mock API function - replace with actual API call
-    const mockSignupAPI = async (data) => {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                // Simulate successful response
-                if (data.email && data.password) {
-                    resolve({
-                        success: true,
-                        user: {
-                            id: '123',
-                            name: data.name,
-                            email: data.email
-                        },
-                        token: 'mock-auth-token'
-                    });
-                } else {
-                    reject(new Error('Registration failed'));
-                }
-            }, 1500);
-        });
-    };
+   
 
     return (
         <div className="signup-container">
@@ -170,6 +173,37 @@ const Signup = ({ setIsAuthenticated }) => {
                             <span className="error-text">{errors.confirmPassword}</span>
                         )}
                     </div>
+                      <div className="form-group">
+                        <label htmlFor="Phone">Phone</label>
+                        <input
+                            type="text"
+                            id="Phone"
+                            name="Phone"
+                            value={formData.Phone}
+                            onChange={handleChange}
+                            className={errors.Phone ? 'error' : ''}
+                            required
+                        />
+                        {errors.Phone && (
+                            <span className="error-text">{errors.Phone}</span>
+                        )}
+                    </div>
+                    
+                    <div className="form-group">
+                        <label htmlFor="address">Address</label>
+                        <input
+                            type="text"
+                            id="address"
+                            name="address"
+                            value={formData.address}
+                            onChange={handleChange}
+                            className={errors.address ? 'error' : ''}
+                            required
+                        />
+                        {errors.address && (
+                            <span className="error-text">{errors.address}</span>
+                        )}
+                        </div>
 
                     <button
                         type="submit"
@@ -193,5 +227,5 @@ const Signup = ({ setIsAuthenticated }) => {
         </div>
     );
 };
-
+    
 export default Signup;

@@ -1,0 +1,16 @@
+.card-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* For larger screens, you might want to limit the width */
+@media (min-width: 1200px) {
+  .card-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
