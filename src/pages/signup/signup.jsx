@@ -1,231 +1,156 @@
-import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import axios from  'axios';
-import './Signup.css';
-import {baseUrl} from '../../helper/common';
-import {v4 as uuidv4 } from 'uuid';
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "./Signup.css";
 
-const Signup = ({ setIsAuthenticated }) => 
-    {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        password: '',
-        confirmPassword: '',
-        Phone: '',
-        Role: 'user',
-        address: '',
-        unique_ID: uuidv4()
-    });
-    const [errors, setErrors] = useState({});
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const navigate = useNavigate();
+const Signup = ({ setIsAuthenticated }) => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+    phone: "",
+    address: "",
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value
-        });
-        // Clear error when user types
-        if (errors[name]) {
-            setErrors({
-                ...errors,
-                [name]: null
-            });
-        }
-    };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    if (errors[name]) setErrors({ ...errors, [name]: null });
+  };
 
-    const validateForm = () => {
-        const newErrors = {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-        if (!formData.name.trim()) {
-            newErrors.name = 'Name is required';
-        }
+    // Simulate signup
+    setTimeout(() => {
+      setIsAuthenticated(true);
+      navigate("/dashboard");
+      setIsSubmitting(false);
+    }, 1500);
+  };
 
-        if (!formData.email.trim()) {
-            newErrors.email = 'Email is required';
-        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-            newErrors.email = 'Email is invalid';
-        }
-
-        if (!formData.password) {
-            newErrors.password = 'Password is required';
-        } else if (formData.password.length < 6) {
-            newErrors.password = 'Password must be at least 6 characters';
-        }
-
-        if (formData.password !== formData.confirmPassword) {
-            newErrors.confirmPassword = 'Passwords do not match';
-        }
-         if(!formData.Phone.trim()) newErrors.Phone = 'Phone number is required';
-         if(!formData.address.trim()) newErrors.address = 'Address is required';
-
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
-    const signupAPI = async (data) => {
-         const response = await axios.post(`${baseUrl}/signup`, {
-    
-            Name: data.name,
-            Email: data.email,  
-            Password: data.password,
-            Phone: data.Phone,
-            Role: data.Role,
-            Address: data.address,
-            Unique_ID: data.unique_ID
-        });
-        return response.data;
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        if (validateForm()) {
-            setIsSubmitting(true);
-
-            try {
-                // Simulate API call to your backend
-                 const response = await axios.post(`${baseUrl}/signup`, formData);
-
-                // On successful signup
-                localStorage.setItem('isAuthenticated', 'true');
-                localStorage.setItem('user', JSON.stringify(response.user));
-                setIsAuthenticated(true);
-                navigate('/dashboard');
-            } catch (error) {
-                setErrors({
-                    ...errors,
-                    form: error.message || 'Signup failed. Please try again.'
-                });
-            } finally {
-                setIsSubmitting(false);
-            }
-        }
-    };
-
-   
-
-    return (
-        <div className="signup-container">
-            <div className="signup-card">
-                <h2>Create Your Account</h2>
-                <p className="subtitle">Join our community today</p>
-
-                {errors.form && <div className="error-message">{errors.form}</div>}
-
-                <form onSubmit={handleSubmit} noValidate>
-                    <div className="form-group">
-                        <label htmlFor="name">Full Name</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            value={formData.name}
-                            onChange={handleChange}
-                            className={errors.name ? 'error' : ''}
-                            required
-                        />
-                        {errors.name && <span className="error-text">{errors.name}</span>}
-                    </div>
-
-                    <div className="form-group">
-                        <label htmlFor="email">Email Address</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            className={errors.email ? 'error' : ''}
-                            required
-                        />
-                        {errors.email && <span className="error-text">{errors.email}</span>}
-                    </div>
-
-                    <div className="form-group">
-                        <label htmlFor="password">Password</label>
-                        <input
-                            type="password"
-                            id="password"
-                            name="password"
-                            value={formData.password}
-                            onChange={handleChange}
-                            className={errors.password ? 'error' : ''}
-                            required
-                            minLength="6"
-                        />
-                        {errors.password && <span className="error-text">{errors.password}</span>}
-                    </div>
-
-                    <div className="form-group">
-                        <label htmlFor="confirmPassword">Confirm Password</label>
-                        <input
-                            type="password"
-                            id="confirmPassword"
-                            name="confirmPassword"
-                            value={formData.confirmPassword}
-                            onChange={handleChange}
-                            className={errors.confirmPassword ? 'error' : ''}
-                            required
-                        />
-                        {errors.confirmPassword && (
-                            <span className="error-text">{errors.confirmPassword}</span>
-                        )}
-                    </div>
-                      <div className="form-group">
-                        <label htmlFor="Phone">Phone</label>
-                        <input
-                            type="text"
-                            id="Phone"
-                            name="Phone"
-                            value={formData.Phone}
-                            onChange={handleChange}
-                            className={errors.Phone ? 'error' : ''}
-                            required
-                        />
-                        {errors.Phone && (
-                            <span className="error-text">{errors.Phone}</span>
-                        )}
-                    </div>
-                    
-                    <div className="form-group">
-                        <label htmlFor="address">Address</label>
-                        <input
-                            type="text"
-                            id="address"
-                            name="address"
-                            value={formData.address}
-                            onChange={handleChange}
-                            className={errors.address ? 'error' : ''}
-                            required
-                        />
-                        {errors.address && (
-                            <span className="error-text">{errors.address}</span>
-                        )}
-                        </div>
-
-                    <button
-                        type="submit"
-                        className="signup-button"
-                        disabled={isSubmitting}
-                    >
-                        {isSubmitting ? (
-                            <>
-                                <span className="spinner"></span> Creating Account...
-                            </>
-                        ) : (
-                            'Sign Up'
-                        )}
-                    </button>
-                </form>
-
-                <div className="login-link">
-                    Already have an account? <Link to="/login">Log in</Link>
-                </div>
-            </div>
+  return (
+    <div className="auth-container">
+      <div className="auth-card">
+        <div className="auth-header">
+          <h2>Create Your Account</h2>
+          <p>Join our community today</p>
         </div>
-    );
+
+        <form onSubmit={handleSubmit}>
+          <div className="input-group">
+            <label>Full Name</label>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Enter your full name"
+              className={errors.name ? "error" : ""}
+            />
+            {errors.name && (
+              <span className="error-message">{errors.name}</span>
+            )}
+          </div>
+
+          <div className="input-group">
+            <label>Email Address</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Enter your email"
+              className={errors.email ? "error" : ""}
+            />
+            {errors.email && (
+              <span className="error-message">{errors.email}</span>
+            )}
+          </div>
+
+          <div className="input-row">
+            <div className="input-group">
+              <label>Password</label>
+              <input
+                type="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
+                placeholder="Create password"
+                className={errors.password ? "error" : ""}
+              />
+              {errors.password && (
+                <span className="error-message">{errors.password}</span>
+              )}
+            </div>
+
+            <div className="input-group">
+              <label>Confirm Password</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                value={formData.confirmPassword}
+                onChange={handleChange}
+                placeholder="Confirm password"
+                className={errors.confirmPassword ? "error" : ""}
+              />
+              {errors.confirmPassword && (
+                <span className="error-message">{errors.confirmPassword}</span>
+              )}
+            </div>
+          </div>
+
+          <div className="input-row">
+            <div className="input-group">
+              <label>Phone Number</label>
+              <input
+                type="tel"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="Enter phone number"
+              />
+            </div>
+          </div>
+
+          <div className="input-group">
+            <label>Address</label>
+            <textarea
+              name="address"
+              value={formData.address}
+              onChange={handleChange}
+              placeholder="Enter your address"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <div className="terms-agreement">
+            <input type="checkbox" id="terms" required />
+            <label htmlFor="terms">
+              I agree to the <Link to="/terms">Terms of Service</Link> and{" "}
+              <Link to="/privacy">Privacy Policy</Link>
+            </label>
+          </div>
+
+          <button type="submit" className="auth-button" disabled={isSubmitting}>
+            {isSubmitting ? (
+              <span className="spinner"></span>
+            ) : (
+              "Create Account"
+            )}
+          </button>
+        </form>
+
+        <div className="auth-footer">
+          Already have an account? <Link to="/login">Log in</Link>
+        </div>
+      </div>
+    </div>
+  );
 };
-    
+
 export default Signup;

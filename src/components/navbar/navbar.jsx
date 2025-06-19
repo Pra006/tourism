@@ -1,60 +1,63 @@
-import { Link } from 'react-router-dom';
-import './navbar.css'; // Assuming you have a CSS file for styling the navbar
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = ({ isAuthenticated, handleLogout }) => {
   return (
     <nav className="navbar">
-      <div className="nav-container">
-        <Link to="/" className="nav-logo">
-          MyApp
+      <div className="navbar-container">
+        <Link to="/" className="navbar-brand">
+          <span className="logo-icon">✈️</span>
+          <span className="logo-text">NepalTravels</span>
         </Link>
-        <ul className="nav-menu">
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-link">
-              About
-            </Link>
-          </li>         
-           <li className="nav-item">
-            <Link to="/tour-packages" className="nav-link">
-              Tour Packages
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Privacy Policy
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
-          </li>
-          {isAuthenticated ? (
-            <>
-              <li className="nav-item">
-                <Link to="/dashboard" className="nav-link">
-                  Dashboard
-                </Link>
-              </li>
-              <li className="nav-item">
-                <button onClick={handleLogout} className="nav-button">
-                  Logout
-                </button>
-              </li>
-            </>
-          ) : (
+
+        <div className="navbar-menu">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/login" className="nav-link">
-                Login/Signup
+              <Link to="/" className="nav-link">
+                Home
               </Link>
             </li>
-          )}
-        </ul>
+            <li className="nav-item">
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/tour-packages" className="nav-link">
+                Tours
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
+            </li>
+          </ul>
+
+          <div className="navbar-actions">
+            {isAuthenticated ? (
+              <>
+                <Link to="/dashboard" className="nav-button dashboard">
+                  <span className="button-icon">👤</span>
+                  Dashboard
+                </Link>
+                <button onClick={handleLogout} className="nav-button logout">
+                  <span className="button-icon">🚪</span>
+                  Logout
+                </button>
+              </>
+            ) : (
+              <Link to="/login" className="nav-button login">
+                <span className="button-icon">🔑</span>
+                Login
+              </Link>
+            )}
+          </div>
+        </div>
+
+        <button className="navbar-toggle">
+          <span className="toggle-icon">☰</span>
+        </button>
       </div>
     </nav>
   );

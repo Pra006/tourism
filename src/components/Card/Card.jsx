@@ -1,17 +1,34 @@
-import PropTypes from 'prop-types';
-import './Card.css'; // We'll create this next
+import PropTypes from "prop-types";
+import "./Card.css";
 
 const Card = ({ imageUrl, title, snippet, price, onViewDetails }) => {
+  const currencySymbol = "रु.";
   return (
-    <div className="card">
-      <img src={imageUrl} alt={title} className="card-image" />
+    <div className="tour-card">
+      <div className="card-image-container">
+        <img src={imageUrl} alt={title} className="card-image" />
+        <div className="card-badge">Popular</div>
+      </div>
+
       <div className="card-content">
+        <div className="card-rating">
+          <span className="stars">⭐⭐⭐⭐⭐</span>
+          <span className="review-count">(128 reviews)</span>
+        </div>
+
         <h3 className="card-title">{title}</h3>
         <p className="card-snippet">{snippet}</p>
+
         <div className="card-footer">
-          <span className="card-price">${price}</span>
+          <div className="price-container">
+            <span className="from">From</span>
+            <span className="price">{currencySymbol}{price}</span>
+            <span className="per-person">per person</span>
+          </div>
+
           <button className="card-button" onClick={onViewDetails}>
             View Details
+            <span className="button-arrow">→</span>
           </button>
         </div>
       </div>

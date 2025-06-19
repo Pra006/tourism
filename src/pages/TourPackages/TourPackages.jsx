@@ -1,72 +1,117 @@
-import './TourPackages.css';
-import phewaImage from '../../assets/Phewa.jpg';
-import { useEffect, useState } from 'react';
+import "./TourPackages.css";
+import phewaImage from "../../assets/Phewa.jpg";
 
 const TourPackages = () => {
-    const [packageData, setPackageData] = useState();
+  const packageData = {
+    title: "Kathmandu-Pokhara 5 Days Trip",
+    description:
+      "Experience the best of Kathmandu and Pokhara with our carefully curated tour package that combines cultural heritage with natural beauty.",
+    highlights: [
+      "Visit UNESCO World Heritage Sites in Kathmandu",
+      "Boat ride on Phewa Lake with mountain views",
+      "Sunrise view from Sarangkot",
+      "Explore local markets and cuisine",
+    ],
+    packageDetails: {
+      duration: "5 Days / 4 Nights",
+      locations: "Kathmandu, Pokhara",
+      rating: "4.8 (150 reviews)",
+      accommodation: "4-Star Hotels",
+      transportation: "Private AC Vehicle",
+    },
+    price: 13000,
+  };
 
-    useEffect(() => {
-        const data = {
-        title: "Kathmandu-Pokhara 5 Days Trip",
-        description: "Experience the best of Kathmandu and Pokhara with our carefully curated tour package.",
-        packageDetails: {
-            stay : "🕒 3 Days / 2 Nights" ,
-            location : "📍 Kathmandu, Pokhara",
-            rating : "⭐ 4.8 (150 reviews)",
-            hotel : "🏨 5-Star Hotels",
-            transportation : "🚌 Private Transportation"
-        },
-        price: 13000
-    }
-        setPackageData(data);
-        
-    }, []);
-    // console.log("Package Data:", packageData);
-    return (
-        <section className="tour-packages">
-            <div className="container">
-                <header className="section-header">
-                    <h1>Tour Packages</h1>
-                    <p className="section-description">Discover our exciting tour packages for your next adventure.</p>
-                </header>
+  return (
+    <section className="tour-packages-page">
+      <div className="package-header">
+        <h1>Our Tour Packages</h1>
+        <p>Carefully crafted experiences for every traveler</p>
+      </div>
 
-                <div className="packages-grid">
-                    {/* 📌 Kathmandu-Pokhara Tour Package Card */}
-                    <div className="package-card">
-                        <div className="package-image-container">
-                            <img
-                                src={phewaImage}
-                                alt="Phewa Lake, Pokhara"
-                                className="package-image"
-                            />
-                        </div>
-                        {packageData && 
-                            <div className="package-content">
-                                <div>
-                                    
-                                    <h2>{packageData.title}</h2>
-                                    <p>{packageData.description}</p>
+      <div className="package-container">
+        <div className="package-gallery">
+          <div
+            className="main-image"
+            style={{ backgroundImage: `url(${phewaImage})` }}
+          ></div>
+          <div className="thumbnail-grid">
+            {[1, 2, 3, 4].map((item) => (
+              <div
+                key={item}
+                className="thumbnail"
+                style={{ backgroundImage: `url(${phewaImage})` }}
+              ></div>
+            ))}
+          </div>
+        </div>
 
-                                    <ul className="package-details">
-                                        <li>{packageData.packageDetails.stay}</li>
-                                        <li>{packageData.packageDetails.location}</li>
-                                        <li>{packageData.packageDetails.rating}</li>
-                                        <li>{packageData.packageDetails.hotel}</li>
-                                        <li>{packageData.packageDetails.transportation}</li>
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <p className="price">रु. {packageData.price} per person</p>
-                                    <button className="book-btn">Book Now</button>
-                                </div>
-                            </div>
-                        }
-                    </div>
-                </div>
+        <div className="package-details">
+          <div className="package-header">
+            <h2>{packageData.title}</h2>
+            <div className="package-meta">
+              <span className="rating">
+                ⭐ {packageData.packageDetails.rating}
+              </span>
+              <span className="duration">
+                🕒 {packageData.packageDetails.duration}
+              </span>
             </div>
-        </section>
-    );
+          </div>
+
+          <div className="package-highlights">
+            <h3>Experience Highlights</h3>
+            <ul>
+              {packageData.highlights.map((highlight, index) => (
+                <li key={index}>{highlight}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="package-info-grid">
+            <div className="info-item">
+              <span className="info-icon">🏨</span>
+              <div>
+                <h4>Accommodation</h4>
+                <p>{packageData.packageDetails.accommodation}</p>
+              </div>
+            </div>
+            <div className="info-item">
+              <span className="info-icon">🚌</span>
+              <div>
+                <h4>Transportation</h4>
+                <p>{packageData.packageDetails.transportation}</p>
+              </div>
+            </div>
+            <div className="info-item">
+              <span className="info-icon">🍽️</span>
+              <div>
+                <h4>Meals</h4>
+                <p>Breakfast included</p>
+              </div>
+            </div>
+            <div className="info-item">
+              <span className="info-icon">👨‍👩‍👧‍👦</span>
+              <div>
+                <h4>Group Size</h4>
+                <p>Max 12 people</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="package-price-section">
+            <div className="price-box">
+              <span className="from">From</span>
+              <span className="price">रु. {packageData.price}</span>
+              <span className="per-person">per person</span>
+            </div>
+            <button className="book-now-button">Book Now</button>
+            <button className="inquiry-button">Make an Inquiry</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default TourPackages;

@@ -1,129 +1,95 @@
-import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import './Login.css';
-import axios from 'axios';
-import { baseUrl } from '../../helper/common';
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "./Login.css";
 
 const Login = ({ setIsAuthenticated }) => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [error, setError] = useState('');
-    const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setIsSubmitting(true);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-        try {
-            // 1. Fetch email and password from form database with help of email
-            const body = {
-                email: email,
-                password: password
-            }
-            let auth = await axios.post(`${baseUrl}/login`, body);
-            const userData = auth.data.user;
+    // Simulate login
+    setTimeout(() => {
+      setIsAuthenticated(true);
+      navigate("/dashboard");
+      setIsSubmitting(false);
+    }, 1500);
+  };
 
-            // 2. Validate email and password
-            // Simple authentication logic
-            if (userData) {
-                // 1. Set in localStorage
-                localStorage.setItem('isAuthenticated', 'true');
-                localStorage.setItem('userData', JSON.stringify(userData));
-
-                // 2. Update state in parent component
-                setIsAuthenticated(true);
-
-                // 3. Navigate to dashboard
-                navigate('/dashboard');
-            } else {
-                console.error('Invalid credentials');
-                setError('Invalid credentials');
-            }
-        } catch (error) {
-            console.error('Login failed:', error);
-            setError('Login failed. Please try again.');
-        }
-        finally {
-            setIsSubmitting(false);
-        }
-
-    };
-
-
-    return (
-        <div className="login-page">
-            <div className="login-container">
-                <h1>Login</h1>
-                <p className="login-subtitle">Welcome back! Please enter your details</p>
-
-                {error && <div className="error-message">{error}</div>}
-
-                <form onSubmit={handleSubmit}>
-                    <div>
-                        <label>Email:</label>
-                        <input
-                            type="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label>Password:</label>
-                        <input
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            required
-                        />
-                    </div>
-                    <button
-                        type="submit"
-                        className="login-button"
-                        disabled={isSubmitting}
-                    >
-                        {isSubmitting ? 'Logging in...' : 'Login'}
-                    </button>
-                </form>
-
-                <p className="signup-text">
-                    Don't have an account? <Link to="/signup">Sign up</Link>
-                </p>
-            </div>
+  return (
+    <div className="auth-container">
+      <div className="auth-card">
+        <div className="auth-header">
+          <h2>Welcome Back</h2>
+          <p>Please enter your credentials to login</p>
         </div>
-    );
 
-    // return (
-    //     <div className="login-page">
-    //         <h1>Login</h1>
-    //         {error && <p className="error-message">{error}</p>}
-    //         <form onSubmit={handleSubmit}>
-    //             <div>
-    //                 <label>Username:</label>
-    //                 <input
-    //                     type="text"
-    //                     value={username}
-    //                     onChange={(e) => setUsername(e.target.value)}
-    //                     required
-    //                 />
-    //             </div>
-    //             <div>
-    //                 <label>Password:</label>
-    //                 <input
-    //                     type="password"
-    //                     value={password}
-    //                     onChange={(e) => setPassword(e.target.value)}
-    //                     required
-    //                 />
-    //             </div>
-    //             <button type="submit" className="login-button">Login</button>
-    //         </form>
-    //         <p className="signup-text">
-    //             Don't have an account? <Link to="/signup">Sign up</Link>
-    //         </p>
-    //     </div>
-    // );
+        {error && <div className="auth-error">{error}</div>}
+
+        <form onSubmit={handleSubmit}>
+          <div className="input-group">
+            <label>Email Address</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter your email"
+              required
+            />
+            <span className="input-icon">✉️</span>
+          </div>
+
+          <div className="input-group">
+            <label>Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Enter your password"
+              required
+            />
+            <span className="input-icon">🔒</span>
+          </div>
+
+          <div className="auth-options">
+            <label className="remember-me">
+              <input type="checkbox" />
+              Remember me
+            </label>
+            <Link to="/forgot-password" className="forgot-password">
+              Forgot password?
+            </Link>
+          </div>
+
+          <button type="submit" className="auth-button" disabled={isSubmitting}>
+            {isSubmitting ? <span className="spinner"></span> : "Login"}
+          </button>
+        </form>
+
+        <div className="auth-footer">
+          Don't have an account? <Link to="/signup">Sign up</Link>
+        </div>
+
+        <div className="auth-divider">
+          <span>or continue with</span>
+        </div>
+
+        <div className="social-auth">
+          <button className="social-button google">
+            <span className="social-icon">G</span> Google
+          </button>
+          <button className="social-button facebook">
+            <span className="social-icon">f</span> Facebook
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Login;
