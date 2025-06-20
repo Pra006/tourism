@@ -1,0 +1,437 @@
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\appsettings.Development.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\appsettings.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.staticwebassets.endpoints.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.exe
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.deps.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.runtimeconfig.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Project_Server.pdb
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Humanizer.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\MySqlConnector.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.CodeDom.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.csproj.AssemblyReference.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.AssemblyInfoInputs.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.AssemblyInfo.cs
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.csproj.CoreCompileInputs.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cs
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\scopedcss\bundle\Project_Server.styles.css
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\staticwebassets.build.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\staticwebassets.development.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_.BE2C2F4C.Up2Date
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\refint\Project_Server.dll
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.pdb
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\Project_Server.genruntimeconfig.cache
+D:\All Workspaces\Lennobyte Solution Workspace\Doctors_Appoinment\Project_Server\obj\Debug\net8.0\ref\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\appsettings.Development.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\appsettings.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.staticwebassets.endpoints.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.exe
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.deps.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.runtimeconfig.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Project_Server.pdb
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Humanizer.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\MySqlConnector.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.CodeDom.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.csproj.AssemblyReference.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.AssemblyInfoInputs.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.AssemblyInfo.cs
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.csproj.CoreCompileInputs.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cs
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\scopedcss\bundle\Project_Server.styles.css
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\staticwebassets.build.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\staticwebassets.development.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_.BE2C2F4C.Up2Date
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\refint\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.pdb
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\Project_Server.genruntimeconfig.cache
+D:\Books and College Accessories\Dotnet Setup and tools\Project_Server\obj\Debug\net8.0\ref\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\appsettings.Development.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\appsettings.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.staticwebassets.endpoints.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.exe
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.deps.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.runtimeconfig.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Project_Server.pdb
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Humanizer.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\MySqlConnector.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.CodeDom.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.csproj.AssemblyReference.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.AssemblyInfoInputs.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.AssemblyInfo.cs
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.csproj.CoreCompileInputs.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cs
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.sourcelink.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\scopedcss\bundle\Project_Server.styles.css
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\staticwebassets.build.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\staticwebassets.development.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_.BE2C2F4C.Up2Date
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\refint\Project_Server.dll
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.pdb
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\Project_Server.genruntimeconfig.cache
+D:\Books and College Accessories\Dotnet Setup and tools\dotnet-server-setup\obj\Debug\net8.0\ref\Project_Server.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\appsettings.Development.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\appsettings.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Project_Server.exe
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Project_Server.deps.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Project_Server.runtimeconfig.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Project_Server.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Project_Server.pdb
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Humanizer.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\MySqlConnector.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.CodeDom.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.csproj.AssemblyReference.cache
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.AssemblyInfoInputs.cache
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.AssemblyInfo.cs
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.csproj.CoreCompileInputs.cache
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cs
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets.build.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets.development.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets\msbuild.Project_Server.Microsoft.AspNetCore.StaticWebAssets.props
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets\msbuild.build.Project_Server.props
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Project_Server.props
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Project_Server.props
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\staticwebassets.pack.json
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\scopedcss\bundle\Project_Server.styles.css
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_.BE2C2F4C.Up2Date
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\refint\Project_Server.dll
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.pdb
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\Project_Server.genruntimeconfig.cache
+D:\dotnet-server-setup-main\dotnet-server-setup-main\obj\Debug\net8.0\ref\Project_Server.dll
